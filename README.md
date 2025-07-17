@@ -1,70 +1,50 @@
-# 💜 ✨ Projeto [Nome do Projeto] ✨ 💜
+# Welcome to your Expo app 👋
 
-**Uma Nova Era de [Área de Atuação do Projeto - ex: Inovação Financeira, Experiência do Cliente] com a Marca Nu!**
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
----
+## Get started
 
-## Boas-Vindas!
+1. Install dependencies
 
-Bem-vindo(a) ao repositório do Projeto **[Nome do Projeto]**! Aqui no Nubank, estamos constantemente inovando para oferecer as melhores soluções para nossos clientes. Este projeto representa um passo importante em nossa jornada, focado em **[breve descrição do objetivo principal do projeto]**.
+   ```bash
+   npm install
+   ```
 
----
+2. Start the app
 
-## Sobre o Projeto
+   ```bash
+   npx expo start
+   ```
 
-**[Nome do Projeto]** é uma iniciativa que visa **[descrição detalhada do propósito do projeto, os problemas que ele resolve, as funcionalidades principais e o valor que ele agrega]**. Desenvolvido com a paixão e a expertise que caracterizam o Nubank, este projeto busca **[mencionar tecnologias-chave ou abordagens inovadoras se for relevante]**.
+In the output, you'll find options to open the app in a
 
-**Funcionalidades Principais:**
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-* **[Funcionalidade 1]**: Breve descrição.
-* **[Funcionalidade 2]**: Breve descrição.
-* **[Funcionalidade 3]**: Breve descrição.
-* *Adicione mais funcionalidades conforme necessário.*
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
----
+## Get a fresh project
 
-## Começando (Getting Started)
-
-Para começar a explorar e contribuir com o Projeto **[Nome do Projeto]**, siga as instruções abaixo:
-
-### Pré-requisitos
-
-Certifique-se de ter os seguintes softwares instalados em sua máquina:
-
-* **[Pré-requisito 1 e versão - ex: Node.js 18+]**
-* **[Pré-requisito 2 e versão - ex: Python 3.9+]**
-* *Outros pré-requisitos, como Docker, VS Code, etc.*
-
-### Instalação
-
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/nubank/](https://github.com/nubank/)[nome-do-projeto].git
-    ```
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd [nome-do-projeto]
-    ```
-3.  Instale as dependências:
-    ```bash
-    # Exemplo para projetos Node.js
-    npm install
-    # Ou yarn install
-
-    # Exemplo para projetos Python
-    pip install -r requirements.txt
-    ```
-
----
-
-### Rodando o Projeto
-
-Para executar o projeto localmente:
+When you're ready, run:
 
 ```bash
-# Exemplo para projetos Node.js
-npm start
-# Ou yarn start
+npm run reset-project
+```
 
-# Exemplo para projetos Python
-python main.py
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
