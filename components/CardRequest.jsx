@@ -1,21 +1,17 @@
-import { View, StyleSheet, Text, Pressable, Image } from "react-native";
+import { View, StyleSheet, Text, Pressable } from "react-native";
+import ButtonCard from "./ui/ButtonCard";
 export default function CardRequest() {
   return (
-    <View>
-      <View style={styles.containerItens}>
-        {/* Card Invisivel */}
-        <Text style={styles.Text1}>Cartão de crédito</Text>
-        <Text style={styles.Text2}>
-          Peca seu cartão de crédito sem anuidade e tenha mais controle da sua
-          vida financeira.
-        </Text>
-        <Pressable onPress={() => console.log("Pedir Cartão")}>
-          <Image
-            source={require("../assets/images/ButtonGetCard.jpg")}
-            style={styles.ButtonGetCard}
-          ></Image>
-        </Pressable>
-      </View>
+    <View style={styles.containerItens}>
+      {/* Card Invisivel */}
+      <Text style={styles.Text1}>Cartão de crédito</Text>
+      <Text style={styles.Text2}>
+        Peça seu cartão de crédito sem anuidade e tenha {"\n"}mais controle da
+        sua vida financeira.
+      </Text>
+      <Pressable onPress={() => console.log("Pedir Cartão")}>
+        <ButtonCard />
+      </Pressable>
     </View>
   );
 }
@@ -32,22 +28,27 @@ const styles = StyleSheet.create({
     zIndex: 1,
     left: "8%",
     top: 15,
-    backgroundColor: "red",
   },
   IconCard: {
     //ultimo editado
   },
   Text1: {
-    fontSize: 20,
-    fontWeight: "bold",
+    fontSize: 28,
+    fontFamily: "Roboto",
+    fontWeight: "medium",
     marginBottom: 10,
   },
-  Text2: {},
+  Text2: {
+    fontSize: 17,
+    marginTop: 5,
+    fontFamily: "Roboto",
+    fontWeight: "medium",
+  },
   ButtonGetCard: {
     width: 300,
     height: 50,
     borderRadius: 25,
+    marginTop: 20,
     zIndex: 1,
-    marginTop: 60,
   },
 });
