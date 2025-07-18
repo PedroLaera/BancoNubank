@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../assets/images/iconAccount.jpg")}
+        source={require("../assets/images/iconAccount.jpg")}
         style={styles.iconAccount}
       />
 
@@ -25,19 +25,19 @@ export default function Header() {
         <Image
           source={
             isVisible
-              ? require("../../assets/images/eyeOpen.jpg")
-              : require("../../assets/images/eyeClosed.jpg")
+              ? require("../assets/images/eyeOpen.jpg")
+              : require("../assets/images/eyeClosed.jpg")
           }
           style={styles.eyeValue}
         />
       </Pressable>
 
       <Image
-        source={require("../../assets/images/iconHelp.jpg")}
+        source={require("../assets/images/iconHelp.jpg")}
         style={styles.iconHelp}
       />
       <Image
-        source={require("../../assets/images/iconMensagem.jpg")}
+        source={require("../assets/images/iconMensagem.jpg")}
         style={styles.iconMensagem}
       />
 
@@ -55,10 +55,9 @@ const styles = StyleSheet.create({
     height: 330,
     alignItems: "center",
     justifyContent: "flex-start",
-    backgroundColor: "#f0f0f0",
   },
   text: {
-    color: "#ffffffff",
+    color: "#FFFFFF",
     position: "absolute",
     top: 155,
     left: 25,
@@ -114,7 +113,7 @@ const styles = StyleSheet.create({
     color: "#000000ff",
     position: "absolute",
     top: 240,
-    left: 30,
+    left: "9%",
     zIndex: 1,
     fontSize: 28,
     fontFamily: "Roboto",
@@ -126,7 +125,7 @@ const styles = StyleSheet.create({
     color: "#333",
     position: "absolute",
     top: 280,
-    left: 35,
+    left: "9%",
     textAlign: "center",
     zIndex: 1,
   },
