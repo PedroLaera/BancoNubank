@@ -3,7 +3,6 @@ import { View, Text, Pressable, StyleSheet } from "react-native";
 export default function ButtonCard() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Button Card Component</Text>
       <Pressable onPress={() => console.log("Button Pressed")}>
         <Text style={styles.buttonContainer}>Pedir Cartão</Text>
       </Pressable>
@@ -17,7 +16,6 @@ const styles = StyleSheet.create({
     alignItems: "left",
     justifyContent: "center",
     top: 15,
-    backgroundColor: "#e60000ff",
   },
   text: {
     fontSize: 20,
@@ -34,7 +32,6 @@ const styles = StyleSheet.create({
     lineHeight: 50,
     fontSize: 22,
     fontFamily: "Roboto",
-    marginTop: 10,
     fontWeight: "bold",
   },
 });

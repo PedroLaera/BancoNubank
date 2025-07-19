@@ -1,9 +1,15 @@
-import { View, StyleSheet, Text, Pressable } from "react-native";
+import { View, StyleSheet, Text, Pressable, Image } from "react-native";
 import ButtonCard from "./ui/ButtonCard";
 export default function CardRequest() {
   return (
     <View style={styles.containerItens}>
       {/* Card Invisivel */}
+      <View>
+        <Image
+          source={require("../assets/images/iconCard.jpg")}
+          style={styles.IconCard}
+        ></Image>
+      </View>
       <Text style={styles.Text1}>Cartão de crédito</Text>
       <Text style={styles.Text2}>
         Peça seu cartão de crédito sem anuidade e tenha {"\n"}mais controle da
@@ -30,25 +36,22 @@ const styles = StyleSheet.create({
     top: 15,
   },
   IconCard: {
-    //ultimo editado
+    width: 20,
+    height: 26,
+    backgroundColor: "#fff",
+    position: "absolute",
+    zIndex: 1,
   },
   Text1: {
     fontSize: 28,
     fontFamily: "Roboto",
     fontWeight: "medium",
     marginBottom: 10,
+    marginTop: 45,
   },
   Text2: {
     fontSize: 17,
-    marginTop: 5,
     fontFamily: "Roboto",
     fontWeight: "medium",
-  },
-  ButtonGetCard: {
-    width: 300,
-    height: 50,
-    borderRadius: 25,
-    marginTop: 20,
-    zIndex: 1,
   },
 });
