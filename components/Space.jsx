@@ -5,7 +5,7 @@ export default function Space() {
 const styles = StyleSheet.create({
   Space: {
     width: "100%",
-    marginTop: 40,
+    marginTop: 50,
     height: 3,
     backgroundColor: "#F0F1F5",
   },

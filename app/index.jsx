@@ -1,5 +1,5 @@
 // app/Index.jsx
-import { View, StyleSheet } from "react-native";
+import { StyleSheet, ScrollView } from "react-native";
 import Header from "../components/Header";
 import ButtonCarousel from "../components/ButtonCarousel";
 import MyCards from "../components/MyCards";
@@ -9,19 +9,21 @@ import CardRequest from "../components/CardRequest";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <Header />
       <ButtonCarousel />
       <MyCards />
       <FramesInformation />
       <Space />
       <CardRequest />
-    </View>
+      <Space />
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    paddingVertical: 0,
+    paddingBottom: 50,
   },
 });
