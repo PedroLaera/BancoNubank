@@ -6,6 +6,7 @@ import MyCards from "../components/MyCards";
 import FramesInformation from "../components/FramesInformation";
 import Space from "../components/Space";
 import CardRequest from "../components/CardRequest";
+import CardFinal from "../components/CardFinal";
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
       <Space />
       <CardRequest />
       <Space />
+      <CardFinal />
     </ScrollView>
   );
 }
