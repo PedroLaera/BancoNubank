@@ -8,9 +8,9 @@ export default function Header() {
   const alternarVisibilidade = () => {
     setIsVisible((prev) => !prev);
   };
-
+ 
   const saldo = "5.555.555";
-
+ 
   return (
     <View style={styles.container}>
       <Image
