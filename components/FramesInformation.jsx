@@ -29,7 +29,7 @@ export default function FramesIformation() {
           ))}
         </ScrollView>
       </View>
-    </View>
+    </View> 
   );
 }
 
