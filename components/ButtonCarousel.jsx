@@ -42,7 +42,7 @@ export default function ButtonCarousel() {
                 source={img}
                 style={styles.buttonImage}
                 resizeMode="contain"
-              />
+              /> 
             </TouchableOpacity>
           ))}
         </ScrollView>
